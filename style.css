@@ -4,6 +4,13 @@
     box-sizing: 0;
     font-style: normal;
 
+     @font-face {
+        font-family: 'erta pixeled';
+        src: url('ert-px-regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
     .fnt-hnd {
         font-family: "Delicious Handrawn", cursive;
         font-weight: 400;
@@ -25,7 +32,6 @@
 
     .fnt-ert-px {
         font-family: "erta pixeled";
-        src: url(ert-px-regular.otf);
         font-weight: 500;
         font-size: x-large;
         font-style: normal;
@@ -114,5 +120,6 @@ button:hover {
     color: cyan;
 
 }
+
 
 
