@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    font-style: normal;
+
+    .fnt-hnd {
+        font-family: "Delicious Handrawn", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+
+    .fnt-brnd {
+        font-family: "Fredoka";
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .fnt-ert {
+        font-family: "erta";
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .fnt-ert-px {
+        font-family: "erta pixeled";
+        font-weight: 500;
+        font-size: x-large;
+        font-style: normal;
+    }
+}
+
+/* navigasi */
+a {
+    text-decoration: none;
+}
+
+.nvbr-brnd {
+    font-size: 2rem;
+    color: black;
+}
+
+.nvbr-brnd:hover {
+    color: blueviolet;
+}
+
+.nav-lnk {
+    color: black;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.nav-lnk:hover {
+    color: blueviolet;
+}
+
+.telusuri {
+    height: 40px;
+    width: 80%;
+    margin-right: -35px;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid crimson;
+}
+
+.btn0 {
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    border-radius: 60px;
+    background: crimson;
+    color: antiquewhite;
+    font-weight: 7000;
+}
+
+.btn0:hover {
+    color: cyan;
+}
+
+/* utama */
+.hero {
+    background: url(img/Tulips.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    color: black;
+    font-weight: 700;
+}
+
+.btn1 {
+    height: 45px;
+    width: 35%;
+    border: none;
+    border-radius: 60px;
+    outline: none;
+    background-color: crimson;
+    color: antiquewhite;
+    font-weight: 700;
+}
+h1 {
+    font-weight: 700;
+}
+
+button:hover {
+    color: cyan;
+}
