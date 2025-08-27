@@ -25,6 +25,7 @@
 
     .fnt-ert-px {
         font-family: "erta pixeled";
+        src: url(ert-px-regular.woff);
         font-weight: 500;
         font-size: x-large;
         font-style: normal;
@@ -113,3 +114,4 @@ button:hover {
     color: cyan;
 
 }
+
