@@ -82,7 +82,7 @@ a {
 
 /* utama */
 .hero {
-    background: url(img/Tulips.jpg) no-repeat;
+    background: url(Tulips.jpg) no-repeat;
     background-size: cover;
     background-position: 50% 50%;
     height: 100vh;
@@ -111,4 +111,5 @@ h1 {
 
 button:hover {
     color: cyan;
+
 }
