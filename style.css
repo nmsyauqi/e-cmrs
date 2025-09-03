@@ -4,13 +4,13 @@
     box-sizing: 0;
     font-style: normal;
 
-     @font-face {
-        font-family: 'erta pixeled';
+    @font-face {
+        font-family: 'ert-px-regular';
         src: url('ert-px-regular.woff') format('woff');
         font-weight: normal;
         font-style: normal;
     }
-    
+
     .fnt-hnd {
         font-family: "Delicious Handrawn", cursive;
         font-weight: 400;
@@ -25,13 +25,13 @@
     }
 
     .fnt-ert {
-        font-family: "erta";
+        font-family: "algerian";
         font-weight: 400;
         font-style: normal;
     }
 
     .fnt-ert-px {
-        font-family: "erta pixeled";
+        font-family: "times new roman";
         font-weight: 500;
         font-size: x-large;
         font-style: normal;
@@ -112,14 +112,62 @@ a {
     color: antiquewhite;
     font-weight: 700;
 }
+
+.btn1:hover {
+    background-color: red;
+    transition: 0.5s;
+}
+
 h1 {
     font-weight: 700;
 }
 
 button:hover {
     color: cyan;
-
+    background-color: red;
+    transition: 0.2s;
 }
 
-
-
+.card:hover {
+    box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.46);
+    -webkit-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.46);
+    transition: 0.3s;
+}
+.card > img {
+    width: auto;
+    height: auto;
+}
+.contact {
+    padding: 50px 0;
+}
+    textarea {
+        height: 200px;
+        resize: none;
+    }
+.news {
+    background-color: grey;
+    color: antiquewhite;
+}
+.btn2 {
+    height: 45px;
+    width: 100px;
+    background: antiquewhite;
+    margin-left: -10px;
+    border: none;
+    font-weight: 600;
+}
+.news input {
+    height: 40px;
+    width: 80%;
+    border: 2px solid antiquewhite;
+    outline: none;
+    background: black;
+    color: antiquewhite;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news input::placeholder {
+    color: antiquewhite;
+    font-weight: 600;
+}
